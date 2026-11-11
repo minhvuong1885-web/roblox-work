@@ -1,0 +1,229 @@
+{
+  "nodes": [
+    {
+      "id": "g1",
+      "type": "group",
+      "label": "① ĐỌC TRƯỚC – Quy tắc",
+      "x": -40,
+      "y": -60,
+      "width": 480,
+      "height": 820,
+      "color": "1"
+    },
+    {
+      "id": "g2",
+      "type": "group",
+      "label": "② QUY TRÌNH",
+      "x": 520,
+      "y": -60,
+      "width": 480,
+      "height": 820,
+      "color": "6"
+    },
+    {
+      "id": "g3",
+      "type": "group",
+      "label": "③ ĐANG LÀM – The Mask",
+      "x": 1080,
+      "y": -60,
+      "width": 480,
+      "height": 820,
+      "color": "2"
+    },
+    {
+      "id": "g4",
+      "type": "group",
+      "label": "④ NHÂN VẬT",
+      "x": 1640,
+      "y": -60,
+      "width": 440,
+      "height": 820,
+      "color": "5"
+    },
+    {
+      "id": "home",
+      "type": "file",
+      "file": "00 Trang chủ.md",
+      "x": 520,
+      "y": -420,
+      "width": 480,
+      "height": 260,
+      "color": "3"
+    },
+    {
+      "id": "yc",
+      "type": "file",
+      "file": "06 Tài nguyên/Yêu cầu của tôi.md",
+      "x": 0,
+      "y": 0,
+      "width": 400,
+      "height": 400,
+      "color": "1"
+    },
+    {
+      "id": "mp",
+      "type": "file",
+      "file": "06 Tài nguyên/Master Prompt.md",
+      "x": 0,
+      "y": 440,
+      "width": 400,
+      "height": 280,
+      "color": "1"
+    },
+    {
+      "id": "qt",
+      "type": "file",
+      "file": "A Roblox Studio/00 Quy trình sản xuất.md",
+      "x": 560,
+      "y": 0,
+      "width": 400,
+      "height": 720,
+      "color": "6"
+    },
+    {
+      "id": "mask",
+      "type": "file",
+      "file": "A Roblox Studio/Kịch bản/The Mask.md",
+      "x": 1120,
+      "y": 0,
+      "width": 400,
+      "height": 720,
+      "color": "2"
+    },
+    {
+      "id": "sam",
+      "type": "file",
+      "file": "04 Nhân vật/Sam.md",
+      "x": 1680,
+      "y": 0,
+      "width": 360,
+      "height": 120,
+      "color": "5"
+    },
+    {
+      "id": "mal",
+      "type": "file",
+      "file": "04 Nhân vật/Malric.md",
+      "x": 1680,
+      "y": 140,
+      "width": 360,
+      "height": 120,
+      "color": "5"
+    },
+    {
+      "id": "ald",
+      "type": "file",
+      "file": "04 Nhân vật/Aldric.md",
+      "x": 1680,
+      "y": 280,
+      "width": 360,
+      "height": 120,
+      "color": "5"
+    },
+    {
+      "id": "tho",
+      "type": "file",
+      "file": "04 Nhân vật/Thomas.md",
+      "x": 1680,
+      "y": 420,
+      "width": 360,
+      "height": 120,
+      "color": "5"
+    },
+    {
+      "id": "crowd",
+      "type": "file",
+      "file": "04 Nhân vật/Lính và dân làng.md",
+      "x": 1680,
+      "y": 560,
+      "width": 360,
+      "height": 160,
+      "color": "5"
+    },
+    {
+      "id": "next",
+      "type": "text",
+      "text": "### ⑤ Tiếp theo\n- Video (03 Video)\n- Script Roblox (05)\n- Đăng video",
+      "x": 2160,
+      "y": 0,
+      "width": 300,
+      "height": 200,
+      "color": "4"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e0",
+      "fromNode": "home",
+      "fromSide": "bottom",
+      "toNode": "g2",
+      "toSide": "top"
+    },
+    {
+      "id": "e1",
+      "fromNode": "g1",
+      "fromSide": "right",
+      "toNode": "g2",
+      "toSide": "left",
+      "label": "rồi"
+    },
+    {
+      "id": "e2",
+      "fromNode": "g2",
+      "fromSide": "right",
+      "toNode": "g3",
+      "toSide": "left",
+      "label": "áp dụng"
+    },
+    {
+      "id": "e3",
+      "fromNode": "mask",
+      "fromSide": "right",
+      "toNode": "sam",
+      "toSide": "left"
+    },
+    {
+      "id": "e4",
+      "fromNode": "mask",
+      "fromSide": "right",
+      "toNode": "mal",
+      "toSide": "left"
+    },
+    {
+      "id": "e5",
+      "fromNode": "mask",
+      "fromSide": "right",
+      "toNode": "ald",
+      "toSide": "left"
+    },
+    {
+      "id": "e6",
+      "fromNode": "mask",
+      "fromSide": "right",
+      "toNode": "tho",
+      "toSide": "left"
+    },
+    {
+      "id": "e7",
+      "fromNode": "mask",
+      "fromSide": "right",
+      "toNode": "crowd",
+      "toSide": "left"
+    },
+    {
+      "id": "e8",
+      "fromNode": "g4",
+      "fromSide": "right",
+      "toNode": "next",
+      "toSide": "left"
+    },
+    {
+      "id": "e9",
+      "fromNode": "yc",
+      "fromSide": "bottom",
+      "toNode": "mp",
+      "toSide": "top",
+      "label": "chuẩn gốc"
+    }
+  ]
+}
