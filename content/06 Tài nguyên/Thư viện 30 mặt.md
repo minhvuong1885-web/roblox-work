@@ -1,4 +1,4 @@
-# Thư viện 40 mặt biểu cảm (30 chính + 10 NPC)
+# Thư viện 50 mặt biểu cảm (30 chính + 10 NPC + 10 sợ tiết chế)
 
 Ảnh PNG 512×512, nền trong suốt, dán thẳng lên mặt trước đầu nhân vật (decal / texture). Bản gốc + script cắt ở `C:\Users\admin\Roblox script&work\faces\meme-set-01..03` (xem README từng bộ). Bản trong vault đã **phân loại theo cảm xúc** ở thư mục `Mặt biểu cảm/`.
 
@@ -80,3 +80,19 @@ Biểu cảm cho hành khách / người qua đường, **không dùng cho nhân
 | ![[dizzy_spiral.png\|90]] | dizzy_spiral | Choáng, bị thôi miên |
 | ![[disgusted.png\|90]] | disgusted | Ghê tởm, mùi kinh |
 | ![[embarrassed.png\|90]] | embarrassed | Bị bắt quả tang, xấu hổ |
+
+## 9. Bộ 05: Sợ hãi tiết chế (thêm 13/11/2026)
+Bộ mặt cho cảnh căng thẳng **không lố**: sợ nhưng còn tự chủ, phù hợp phim kinh dị nhẹ (The Endless Line). Mặt nữ có lông mi. Bản gốc, bản `_padded` (thu nhỏ có lề, dán vừa đầu R15) và `_padded_big` ở `C:\Users\admin\Roblox script&work\faces\meme-set-05`.
+
+| | Tên | Dùng khi |
+|---|---|---|
+| ![[woman_quiet_fear.png\|90]] | woman_quiet_fear | Nữ sợ hãi nhưng kìm được, miệng hé (**mẹ Milo** ở scene 11) |
+| ![[woman_anxious.png\|90]] | woman_anxious | Nữ lo lắng, liếc sang bên |
+| ![[woman_holding_tears.png\|90]] | woman_holding_tears | Nữ cố nén nước mắt |
+| ![[woman_shocked.png\|90]] | woman_shocked | Nữ bất ngờ, sững người (miệng "o" nhỏ) |
+| ![[woman_protective.png\|90]] | woman_protective | Nữ quyết tâm che chở |
+| ![[man_nervous.png\|90]] | man_nervous | Nam bồn chồn, cười gượng, toát mồ hôi |
+| ![[man_frozen_terror.png\|90]] | man_frozen_terror | Nam sợ cứng người, nghiến răng |
+| ![[child_scared.png\|90]] | child_scared | Trẻ con sợ |
+| ![[possessed_blank.png\|90]] | possessed_blank | Hành khách bị chiếm hồn: mắt trắng trống rỗng |
+| ![[calm_neutral.png\|90]] | calm_neutral | Hành khách bình thường, điềm tĩnh |
